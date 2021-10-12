@@ -4,7 +4,7 @@ function general(){
     let li = document.createElement("li");
     let input = document.createElement("input");
     input.type = "checkbox";
-    var text = document.createTextNode("\t" + adat);
+    var text = document.createTextNode(adat);
     let close = document.createElement("button");
     var x = document.createTextNode("x");
     close.className = "delete";
@@ -16,6 +16,7 @@ function general(){
     li.appendChild(close);
 
     document.getElementById('lista').appendChild(li);
+    
 
 
 }
