@@ -2,7 +2,7 @@ body{
     background-color: #888;
 }
 
-li {
+.lista {
     list-style: none;
     border-bottom: 1px solid black;
     width: fit-content;
